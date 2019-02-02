@@ -3,6 +3,19 @@
 
 
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+#important !!!!
+
+
+Activate the virtual env, and then install BeautifulSoup4:
+
+$ pip install BeautifulSoup4
+
+
+
+When you installed bs4 with easy_install, you installed it system-wide. So your system python can import it, but not your virtualenv python. If you do not need bs4 to be installed in your system python path, uninstall it and keep it in your virtualenv.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
